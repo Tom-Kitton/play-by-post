@@ -4,29 +4,30 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inknut+Antiqua">
-<link rel="stylesheet" type="text/css" href="Main.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+
 <title>Random Generators</title>
 </head>
 <body>
 	<div class="container">
-		<div class="main-heading"> A JOURNEY BY CONSENSUS</div>
-			<Div Class="sub-heading"> Through the Cities of The Queen's Chain and Nearby Lands,</div>
-			<Div Class="sub-heading">Its Path Decided By You, Our Dearest Readers.</Div>
+		<div class="main-heading"> A Character Generator</div>
+			<Div Class="sub-heading"> Describing many denizens of The Queen's Chain</Div>
 		
-		<div class="strapline">	</div>
+		<div class="redline">	</div>
 			<div class="array">
 				<div class="row">
 					<div class="slab">	
-							<div class="three columns">
-								<div class="side-label"><a href=*****>The Story so far</a></div>
+							<div class="five columns">
+								<button onclick="characterGenerate()">Generate a Random Character</button>
 							</div>	
-							<div class="nine columns">
+							<div class="seven columns">
 								<div class="label-text">
-								 <p>You have arrived at the prts of Gorton Lees in the Diviosn of Estilling, which sits to the South of Old Westhithe  and the Northeast of Deeswich, on the shores of the Inner Sea of Cais. Gorton Lees is a small port, which principally serves the inshore fishing trade, but a few passenger boats ferry travellers between Duenstillig, in foreign La Rhenc, and Lemons Hill, the Capital of the Queens chain. The stink of herrings and Carweys is scarcely to be believed.</p>
-								 <p>Standing on the Quay, you can see a trading bank, a tavern, the customs house, a lighthouse, and a carriage exchange.
-								 </p>
-</div>
-								<div class="out-link>"><a href=********>Click through for a summary of your previous choices</a></div>
+									<div class="character-result" id="characterAnswer">
+										<script type="text/javascript" src="charactergen.js"></script>
+											<p>Your character will appear here</p>
+									</div>
+															</div>
+								
 								
 
 								
@@ -34,43 +35,9 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="slab">	
-							<div class="three columns">
-								<div class="side-label"><a href=****>More About Yourself</a></div>
-							</div>	
-							<div class="nine columns">
-								<div class="label-text">
-								 <p>Your name and occupation have not yet been chosen.</p> 
-								 <div class="out-link"><a href=****>Click through here to see a description of your character.</a></div>
-								</div>
-							</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="slab">	
-							<div class="three columns">
-								<div class="side-label"><a href=****>Choosing your path</a></div>
-							</div>	
-							<div class="nine columns">
-								<div class="label-text">
-								 <p>You need to decide who you are, and why you have arrived in Gorton Lees.
-								 </p>
-								<div class="out-link"><a href=*****>Click through here to decide your path.</a></div>
-								</div>
-							</div>
-					</div>
-				</div>
 				
-				<div class="row">
-					<div class="six columns">
-						......
-					</div>
-					<div class="six columns">
-						
-					</div>
-			</div>
 	</div>
-	<div class="strapline">.</div>
+	<div class="redline"></div>
 	<div class="home-button"><a href=****> ABOUT THIS STYLE OF GAME </a></div>
 	
 </body>

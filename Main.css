@@ -54,50 +54,47 @@ body {
 	text-align: right;
 	}
 
-.button {
-	border: none;
+
+button:focus {
+	
 	background-color: black;
 	font-family: "Inknut Antiqua", serif;
     color: red;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
+	border: 1px solid red;
 }
+
 
 button:hover {
-	border: none;
+
 	background-color: black;
 	font-family: "Inknut Antiqua", serif;
     color: red;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
+	border: 1px solid red;
 }
 
-button:visited {
-	border: none;
+button {
+
 	background-color: black;
 	font-family: "Inknut Antiqua", serif;
     color: red;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border: 1px solid red;
 
 }
 
-.button {
-	border: none;
-	padding: none;
-	color: red;
-}
+
+
 
 .right-aligned-bold-text {
 	font-weight: bold;
@@ -105,6 +102,16 @@ button:visited {
 	color: white;
 	font-size: 125%;
 	text-align: right;
+}
+
+.character-result {
+	text-align: left;
+	margin-bottom: 10px;
+	color: white;
+	background-color: black;
+	padding-top: 10px;
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 200%;	
 }
 
 .container{
