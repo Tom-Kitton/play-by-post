@@ -94,7 +94,21 @@ button {
 }
 
 
+.city-tile{
+	
+	font-family: 'Inknut Antiqua', serif;
+	color: white;
+	text-align: center;
+	border-color: grey;
+	border-width: 1px;
+	border-style: solid;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	margin-bottom: 30px;
 
+}
 
 .right-aligned-bold-text {
 	font-weight: bold;
@@ -242,8 +256,13 @@ p {
 
 .slab{
 	margin-bottom: 40px;
-	
+	font-family: 'Inknut Antiqua', serif;
+	color: white;
+
 }
+
+
+
 
 .spacer {
  	z-index: -1;
